@@ -4125,15 +4125,14 @@ postcss@^6.0.1, postcss@^6.0.23, postcss@^6.0.9:
     source-map "^0.6.1"
     supports-color "^5.4.0"
 
-postcss@^8.1.13:
-  version "8.1.13"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.1.13.tgz#5d2aa2f96b3eaab5edc2ef488b4bd636c680f712"
-  integrity sha512-D++wck3XhQkICYfysZRx90JCDgaTTdq8YxLswB9cjBzfxwcVcQjn3LsjXon0PQ6TIOof2IGWLRHhSgXZuJct4w==
+postcss@^8.2.1:
+  version "8.2.1"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.2.1.tgz#eabc5557c4558059b9d9e5b15bce7ffa9089c2a8"
+  integrity sha512-RhsqOOAQzTgh1UB/IZdca7F9WDb7SUCR2Vnv1x7DbvuuggQIpoDwjK+q0rzoPffhYvWNKX5JSwS4so4K3UC6vA==
   dependencies:
     colorette "^1.2.1"
     nanoid "^3.1.20"
     source-map "^0.6.1"
-    vfile-location "^3.2.0"
 
 prebuild-install@^5.3.5:
   version "5.3.6"
@@ -5547,11 +5546,6 @@ vary@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
-
-vfile-location@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/vfile-location/-/vfile-location-3.2.0.tgz#d8e41fbcbd406063669ebf6c33d56ae8721d0f3c"
-  integrity sha512-aLEIZKv/oxuCDZ8lkJGhuhztf/BW4M+iHdCwglA/eWc+vtuRFJj8EtgceYFX4LRjOhCAAiNHsKGssC6onJ+jbA==
 
 vm-browserify@1.1.2, vm-browserify@^1.0.1:
   version "1.1.2"
