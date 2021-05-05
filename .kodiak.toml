@@ -1,0 +1,10 @@
+version = 1
+
+[merge]
+merge.automerge_label = "merge"
+
+[merge.automerge_dependencies]
+usernames = ["dependabot"]
+
+[update]
+ignored_usernames = ["dependabot"]
