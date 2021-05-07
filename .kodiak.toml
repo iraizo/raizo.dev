@@ -1,5 +1,3 @@
-version = 1
-
 [merge]
 merge.automerge_label = "merge"
 
