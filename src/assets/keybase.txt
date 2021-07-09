@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/raizo
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://raizo.dev
+  * I am raizo (https://keybase.io/raizo) on keybase.
+  * I have a public key ASDfuS4GILwaL14DsOl8dbP1cl8XarzxPoAr3gEf9R-5cQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012008d1b9f84f5df5d525f8c00ae8fa403aecc38cdbaff3da7b9df9695d96f9ef150a",
+      "host": "keybase.io",
+      "kid": "0120dfb92e0620bc1a2f5e03b0e97c75b3f5725f176abcf13e802bde011ff51fb9710a",
+      "uid": "8df4fc847aae26f544e04940a07e4519",
+      "username": "raizo"
+    },
+    "merkle_root": {
+      "ctime": 1625869993,
+      "hash": "f3a28aa83a527eca8495e4d1fb94448d14a1b2c89a6083b35935e082c2e9c0cdcf1c1e753816d923215dede6f1b6bca6312cc2506e80be15f13553823208e9f8",
+      "hash_meta": "d71de7384e76c21d64fd356a398669a352f77acdb928e0e67d252ec6286379e4",
+      "seqno": 20347485
+    },
+    "service": {
+      "entropy": "HQwNzCgpr6jkoIP44vmJ24l4",
+      "hostname": "raizo.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.7.1"
+  },
+  "ctime": 1625870096,
+  "expire_in": 504576000,
+  "prev": "1dc4529acafee41882b748ff180bf406c0cec4f29676702aabdd8acf2efc8d17",
+  "seqno": 10,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg37kuBiC8Gi9eA7DpfHWz9XJfF2q88T6AK94BH/UfuXEKp3BheWxvYWTESpcCCsQgHcRSmsr+5BiCt0j/GAv0BsDOxPKWdnAqq92Kzy78jRfEIJRf+GIeIKdlXuhnizUh0sgfFYXXbSU/9Bsn+VrYu3vwAgHCo3NpZ8RA+N6txX7QWRBWyVPPAkazC9ABl+y/8URwyhD2YyXOZ5exb7YU1u6FSgIubSRVd0OcP5uFInZFIwiI4tiu3CO7CKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIG5jKILzt//K5LaVvSb+yWcq8MeE1n8S4Y6ilhBGm4YDo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/raizo
+
+==================================================================
