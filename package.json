@@ -22,6 +22,7 @@
     "tailwindcss": "^2.2.7"
   },
   "dependencies": {
-    "cssnano": "^5.0.7"
+    "cssnano": "^5.0.7",
+    "postcss-cli": "^8.3.1"
   }
 }

@@ -20,7 +20,7 @@ speed-measure-plugin*.json
 .classpath
 .c9/
 *.launch
-.settings/
+.settings/.dev
 *.sublime-workspace
 
 # IDE - VSCode
@@ -44,3 +44,5 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+package-lock.json
