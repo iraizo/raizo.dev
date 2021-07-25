@@ -1,0 +1,117 @@
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+
+    <meta property="og:title" content="raizo.dev" />
+    <meta property="og:url" content="https://raizo.dev" />
+    <meta property="og:description" content="0x5B618FE03DD54EB2" />
+
+    <link href="../style/style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            font-family: 'Roboto', sans-serif;
+            color: white;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body class="bg-cbg">
+    <div class="flex flex-row justify-between">
+        <div class="flex flex-row items-start p-3 rounded-2xl m-4" style="background: rgba(0, 0, 0, 0.2);">
+            <a class="text-cpink" href="https://raizo.dev">raizo.dev</a>
+        </div>
+
+        <div class="flex flex-row items-start p-3 rounded-2xl m-4 justify-between"
+            style="background: rgba(0, 0, 0, 0.2);">
+            <a class="text-cpink px-4" href="#about">about</a>
+            <a class="text-cpink px-4" href="#skills">skills</a>
+            <a class="text-cpink px-4" href="#projects">projects</a>
+            <a class="text-cpink px-4" href="#contacts">contact</a>
+        </div>
+    </div>
+    <div class="flex flex-row p-3 ml-48 mt-16 justify-between items-center">
+        <div id="text" class="flex flex-col items-start p-3 text-left">
+            <h1 class="bold text-5xl mb-2">Hey, I'm <span class="text-cpink">Raizo</span>.</h1>
+            <p class="text-2xl pt-2">A software developer specializing in building <br>
+                rapid and effective solutions.</p>
+        </div>
+        <img src="../assets/icon.png" class="mr-64" style="border-radius: 200px; width: 10%; height: 10%">
+    </div>
+
+    <div class="flex flex-col p-3 ml-48 mt-16">
+        <h1 id="about" class="text-4xl bold">About</h1>
+        <h1 class="text-2xl pt-2">I’m way more than just a software developer. <br>
+            I have expierence with front and backend developement,<br> basic system administration,
+            knowledge around linux and windows and databases.</h1>
+    </div>
+
+    <div class="flex flex-col p-3 ml-48 mt-16">
+        <h1 id="skills" class="text-4xl bold">Skillset</h1>
+        <div id="skillsets" class="mt-4 grid grid-flow-col">
+            <div id="skillset" class="rounded-2xl justify-center p-5 text-center mr-16"
+                style="background: rgba(0, 0, 0, 0.2);">
+                <h1 class="text-3xl pb-2">Software</h1>
+                <p class="mb-2">Languages:</p>
+                <p>C++,Rust,Python</p>
+            </div>
+            <div id="skillset" class="rounded-2xl justify-center p-5 text-center mx-16"
+                style="background: rgba(0, 0, 0, 0.2);">
+                <h1 class="text-3xl pb-2">Backend</h1>
+                <p class="mb-2">Languages:</p>
+                <p>TypeScript,Rust,Python</p>
+            </div>
+            <div id="skillset" class="rounded-2xl justify-center p-5 text-center mx-16"
+                style="background: rgba(0, 0, 0, 0.2);">
+                <h1 class="text-3xl pb-2">Frontend</h1>
+                <p class="mb-2">Languages:</p>
+                <p>React,HTML,CSS,Javascript</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex flex-col p-3 ml-48 mt-16">
+        <h1 class="text-4xl bold mb-4">Projects</h1>
+        <h1 class="text-2xl">Listed here are all open source projects i have made<br>
+            or contributed to and are all available on <a href="#" class="text-cpink">Github</a>.</h1>
+        <div id="projects" class="grid grid-flow-row mt-4 w-max justify-items-start">
+            <div id="project" class="rounded-2xl p-5 text-left mx-16 mt-4" style="background: rgba(0, 0, 0, 0.2);">
+                <a href="#" class="text-2xl pb-2 text-cpink">mmap-iat</a>
+                <p class="mt-2">A manual mapper using IAT hooking to call the entry point.</p>
+            </div>
+            <div id="project" class="rounded-2xl p-5 text-left mx-16 mt-8 " style="background: rgba(0, 0, 0, 0.2);">
+                <a href="#" class="text-2xl pb-2 text-cpink">discord-ipc-poc</a>
+                <p class="mt-2">A POC of an vulnerbility in Discord.</p>
+            </div>
+            <div id="project" class="rounded-2xl p-5 text-left mx-16 mt-8 " style="background: rgba(0, 0, 0, 0.2);">
+                <a href="#" class="text-2xl pb-2 text-cpink">files.httpreq.club</a>
+                <p class="mt-2">A file uploader backend.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex flex-col p-3 ml-48 mt-16">
+        <h1 class="text-4xl bold">Contact</h1>
+        <h1 class="text-2xl my-4">You can contact me with the services listed below.</h1>
+        <div id="contacts" class="grid grid-flow-row mt-4 w-max justify-items-start items-center">
+            <div id="contact" class="rounded-2xl p-3 text-left mx-16 mt-4 flex flex-row items-center justify-center"
+                style="background: rgba(0, 0, 0, 0.2);">
+                <a href="#" class="text-2xl text-cpink bright pr-4">Email</a>
+                <p class="text-xl">raizo@riseup.net</p>
+            </div>
+            <div id="contact" class="rounded-2xl p-3 text-left mx-16 mt-4 flex flex-row items-center justify-center"
+                style="background: rgba(0, 0, 0, 0.2);">
+                <a href="#" class="text-2xl text-cpink bright pr-4">Matrix</a>
+                <p class="text-xl">@raizo:http://matrix.org</p>
+            </div>
+        </div>
+    </div>
+
+</body>
