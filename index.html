@@ -7,111 +7,131 @@
     <meta property="og:description" content="0x5B618FE03DD54EB2" />
 
     <link href="style/style.css" rel="stylesheet" type="text/css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <link href='https://css.gg/css' rel='stylesheet'>
 
     <style>
         * {
-            font-family: 'Roboto', sans-serif;
+            font-family: 'JetBrains Mono', monospace;
             color: white;
-        }
-
-        .bold {
-            font-weight: bold;
         }
     </style>
 </head>
 
 <body class="bg-cbg">
-    <div class="flex flex-row justify-between">
-        <div class="flex flex-row items-start p-3 rounded-2xl m-4" style="background: rgba(0, 0, 0, 0.2);">
-            <a class="text-cpink" href="https://raizo.dev">raizo.dev</a>
+    <div class="justify-center grid gap-8 grid-cols-1 xl:grid-cols-2 w-1/2 mx-auto">
+        <div id="left" class="flex flex-col mt-4">
+            <h1 class="text-cpink text-3xl font-bold">raizo</h1>
+            <p class="text-purple-400">Software Developer</p>
+
+            <div>
+                <h1 class="text-purple-300 text-3xl font-bold my-2">> About me</h1>
+                <p class="my-2 text-lg">
+                    I am a 16-year old programmer. I'm <br>
+                    the lead developer of <a href="https://github.com/faintorg" class="decoration-dashed underline underline-offset-2 decoration-cpink text-cpink">Faint</a>, a DRM solution
+                    specialized in securing and protecting the payload <br>
+                    against reverse engineering
+                </p>
+
+                <p class="mt-2 text-lg">
+                    I'm also a contributor at  <a href="https://github.com/azerothcore" class="decoration-dashed underline underline-offset-2 decoration-cpink text-cpink">Azerothcore</a>, a <br>
+                    complete Open Source and Modular solution for <br>
+                    World of Warcraft private servers.<br>
+                </p>
+                <div class="flex flex-row items-center">
+                    <ion-icon class="text-lg" name="location"></ion-icon>
+                    <p class="ml-2 text-lg">Essen, Germany</p>
+                </div>
+            </div>
+
+            <div>
+                <h1 class="text-purple-300 text-3xl font-bold my-2">> Skills</h1>
+                <div class="flex flex-row align-middle mb-2">
+                    <ion-icon name="code-slash" class="text-xl"></ion-icon>
+                    <p class="ml-2">Rust, C++, Python</p>
+                </div>
+                <div class="flex flex-row align-middle mb-2">
+                    <ion-icon name="globe-outline" class="text-xl"></ion-icon>
+                    <p class="ml-2">HTML/CSS, React, TypeScript</p>
+                </div>
+                <div class="flex flex-row align-middle mb-2">
+                    <ion-icon name="laptop-outline" class="text-xl"></ion-icon>
+                    <p class="ml-2">Visual Studio Code, Git/GitHub, CMake/Clang</p>
+                </div>
+            </div>
+
+            <div>
+                <h1 class="text-purple-300 text-3xl font-bold my-2">> Links</h1>
+
+                <div class="flex flex-row align-middle mb-2">
+                    <ion-icon name="logo-github" class="text-xl"></ion-icon>
+                    <a href="https://github.com/iraizo" class=" ml-2 decoration-dashed underline underline-offset-2 decoration-cpink text-cpink">GitHub</a>
+                </div>
+                <div class="flex flex-row align-middle mb-2">
+                    <ion-icon name="logo-discord" class="text-xl"></ion-icon>
+                    <a href="https://discord.com/users/452088717008437249" class=" ml-2 decoration-dashed underline underline-offset-2 decoration-cpink text-cpink">Discord</a>
+                </div>
+
+                <div class="flex flex-row align-middle mb-2">
+                    <ion-icon name="mail" class="text-xl"></ion-icon>
+                    <a href="mailto:raizo@riseup.net" class=" ml-2 decoration-dashed underline underline-offset-2 decoration-cpink text-cpink">raizo@riseup.net</a>
+                </div>
+            </div>
         </div>
 
-        <div class="flex flex-row items-start p-3 rounded-2xl m-4 justify-between"
-            style="background: rgba(0, 0, 0, 0.2);">
-            <a class="text-cpink px-4" href="#about">about</a>
-            <a class="text-cpink px-4" href="#skills">skills</a>
-            <a class="text-cpink px-4" href="#projects">projects</a>
-            <a class="text-cpink px-4" href="#contacts">contact</a>
-        </div>
-    </div>
-    <div class="flex flex-row p-3 ml-48 mt-16 justify-between items-center">
-        <div id="text" class="flex flex-col items-start p-3 text-left">
-            <h1 class="bold text-5xl mb-2">Hey, I'm <span class="text-cpink">Raizo</span>.</h1>
-            <p class="text-2xl pt-2">A software developer specializing in building <br>
-                rapid and effective solutions.</p>
-        </div>
-        <img src="../assets/icon.png" class="mr-64" style="border-radius: 200px; width: 10%; height: 10%">
-    </div>
+        <div id="right" class="flex flex-col mt-4">
+            <div class="text-center mb-2">
+                <h1 class="text-purple-300 text-4xl mb-1">Projects</h1>
+                <p>Some of my development <a href="https://github.com/iraizo?tab=repositories" class="decoration-dashed underline underline-offset-2 decoration-cpink text-cpink">(See more)</a></p>
+            </div>
+            <div class="bg-cbgdark rounded-md p-4 my-2">
+                <p class="font-bold text-purple-300 mb-4">cshp</p>
+                <p>CSharpHistoryParser.<br> Historicizing steam games pseudocode.</p>
 
-    <div class="flex flex-col p-3 ml-48 mt-16">
-        <h1 id="about" class="text-4xl bold">About</h1>
-        <h1 class="text-2xl pt-2">I’m way more than just a software developer. <br>
-            I have experience with front and backend development,<br> basic system administration,
-            knowledge around linux and windows and databases.</h1>
-    </div>
+                <div class="flex flex-row items-center mt-2">
+                    <ion-icon name="hammer" class=" text-purple-400 text-lg"></ion-icon>
+                    <p class="ml-2 text-purple-300 text-lg">Rust</p>
+                </div>
 
-    <div class="flex flex-col p-3 ml-48 mt-16">
-        <h1 id="skills" class="text-4xl bold">Skillset</h1>
-        <div id="skillsets" class="mt-4 grid grid-flow-col">
-            <div id="skillset" class="rounded-2xl justify-center p-5 text-center mr-16"
-                style="background: rgba(0, 0, 0, 0.2);">
-                <h1 class="text-3xl pb-2">Software</h1>
-                <p class="mb-2">Languages:</p>
-                <p>C++, Rust, Python</p>
+                <div class="flex flex-row items-center mt-2">
+                    <ion-icon name="logo-github" class="text-purple-400 text-lg"></ion-icon>
+                    <a href="https://github.com/iraizo/cshp" class="ml-2 decoration-dashed underline underline-offset-2 text-lg decoration-purple-300 text-purple-300">iraizo/cshp</a>
+                </div>
             </div>
-            <div id="skillset" class="rounded-2xl justify-center p-5 text-center mx-16"
-                style="background: rgba(0, 0, 0, 0.2);">
-                <h1 class="text-3xl pb-2">Backend</h1>
-                <p class="mb-2">Languages:</p>
-                <p>TypeScript, Rust, Python</p>
-            </div>
-            <div id="skillset" class="rounded-2xl justify-center p-5 text-center mx-16"
-                style="background: rgba(0, 0, 0, 0.2);">
-                <h1 class="text-3xl pb-2">Frontend</h1>
-                <p class="mb-2">Languages:</p>
-                <p>React, HTML, CSS, Javascript</p>
-            </div>
-        </div>
-    </div>
 
-    <div class="flex flex-col p-3 ml-48 mt-16">
-        <h1 class="text-4xl bold mb-4">Projects</h1>
-        <h1 class="text-2xl">Listed here are all open source projects i have made<br>
-            or contributed to and are all available on <a href="https://github.com/iraizo" class="text-cpink">Github</a>.</h1>
-        <div id="projects" class="grid grid-flow-row mt-4 w-max justify-items-start">
-            <div id="project" class="rounded-2xl p-5 text-left mt-4" style="background: rgba(0, 0, 0, 0.2);">
-                <a href="https://github.com/iraizo/nvidia-overlay-hijack" class="text-2xl pb-2 text-cpink">NVIDIA Overlay Hijacker</a>
-                <p class="mt-2">Hijacking the nvidia overlay with C++.</p>
+            <div class="bg-cbgdark rounded-md p-4 my-2">
+                <p class="font-bold text-purple-300 mb-4">nvidia-overlay-hijack</p>
+                <p>Hijacking the nvidia overlay<br> with C++, enabling you to render.</p>
+
+                <div class="flex flex-row items-center mt-2">
+                    <ion-icon name="hammer" class=" text-purple-400 text-lg"></ion-icon>
+                    <p class="ml-2 text-purple-300 text-lg">C++</p>
+                </div>
+
+                <div class="flex flex-row items-center mt-2">
+                    <ion-icon name="logo-github" class="text-purple-400 text-lg"></ion-icon>
+                    <a href="https://github.com/iraizo/nvidia-overlay-hijack" class="ml-2 decoration-dashed underline underline-offset-2 text-lg decoration-purple-300 text-purple-300">iraizo/nvidia-overlay-hijack</a>
+                </div>
             </div>
-            <div id="project" class="rounded-2xl p-5 text-left mt-8 " style="background: rgba(0, 0, 0, 0.2);">
-                <a href="https://github.com/iraizo/discord-ipc-poc" class="text-2xl pb-2 text-cpink">discord-ipc-poc</a>
-                <p class="mt-2">A POC of an vulnerbility in Discord.</p>
-            </div>
-            <div id="project" class="rounded-2xl p-5 text-left mt-8 " style="background: rgba(0, 0, 0, 0.2);">
-                <a href="https://github.com/httpreq" class="text-2xl pb-2 text-cpink">files.httpreq.club</a>
-                <p class="mt-2">A file uploader backend.</p>
+
+            <div class="bg-cbgdark rounded-md p-4 my-2">
+                <p class="font-bold text-purple-300 mb-4">discord-ipc-poc</p>
+                <p>Reading out sensitive account data from discords<br> IPC socket.</p>
+
+                <div class="flex flex-row items-center mt-2">
+                    <ion-icon name="hammer" class=" text-purple-400 text-lg"></ion-icon>
+                    <p class="ml-2 text-purple-300 text-lg">Rust</p>
+                </div>
+
+                <div class="flex flex-row items-center mt-2">
+                    <ion-icon name="logo-github" class="text-purple-400 text-lg"></ion-icon>
+                    <a href="https://github.com/iraizo/discord-ipc-poc" class="ml-2 decoration-dashed underline underline-offset-2 text-lg decoration-purple-300 text-purple-300">iraizo/discord-ipc-poc</a>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="flex flex-col p-3 ml-48 mt-16">
-        <h1 class="text-4xl bold">Contact</h1>
-        <h1 class="text-2xl my-4">You can contact me with the services listed below.</h1>
-        <div id="contacts" class="grid grid-flow-row mt-4 w-max justify-items-start items-center">
-            <div id="contact" class="rounded-2xl p-3 text-left mt-4 flex flex-row items-center justify-center"
-                style="background: rgba(0, 0, 0, 0.2);">
-                <a href="#" class="text-2xl text-cpink bright pr-4">Email</a>
-                <p class="text-xl">raizo@riseup.net</p>
-            </div>
-            <div id="contact" class="rounded-2xl p-3 text-left mt-4 flex flex-row items-center justify-center"
-                style="background: rgba(0, 0, 0, 0.2);">
-                <a href="#" class="text-2xl text-cpink bright pr-4">Matrix</a>
-                <p class="text-xl">@raizo:http://matrix.org</p>
-            </div>
-        </div>
-    </div>
 
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>

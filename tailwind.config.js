@@ -1,14 +1,11 @@
 module.exports = {
-  purge: {
-    content: ['./public/*.html'],
-    enabled: true
-  },
-  darkMode: false, // or 'media' or 'class'
+  content: ['./*.html'],
   theme: {
     extend: {
       colors: {
         cpink: '#D56AA0',
-        cbg:   '#22223B'
+        cbg:   '#22223B',
+        cbgdark: '#1B1B2F'
     },
   },
   },
