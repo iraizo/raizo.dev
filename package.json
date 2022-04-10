@@ -4,7 +4,7 @@
   "description": "",
   "main": "postcss.config.js",
   "scripts": {
-    "build": "postcss style/globals.css -o style/style.css"
+    "build": "npx tailwindcss -i ./style/globals.css -o ./style/style.css"
   },
   "repository": {
     "type": "git",
@@ -16,13 +16,7 @@
     "url": "https://github.com/iraizo/raizo.dev/issues"
   },
   "homepage": "raizo.dev",
-  "devDependencies": {
-    "autoprefixer": "^10.4.4",
-    "postcss": "^8.4.12",
-    "tailwindcss": "^3.0.23"
-  },
   "dependencies": {
-    "cssnano": "^5.0.7",
-    "postcss-cli": "^8.3.1"
+    "tailwindcss": "^3.0.23"
   }
 }
