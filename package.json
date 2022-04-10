@@ -4,7 +4,7 @@
   "description": "",
   "main": "postcss.config.js",
   "scripts": {
-    "build": "npx tailwindcss -i ./globals.css -o ./public/style/style.css"
+    "build": "npx tailwindcss -i ./style/globals.css -o ./style/style.css"
   },
   "repository": {
     "type": "git",
