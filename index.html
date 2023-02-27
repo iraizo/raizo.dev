@@ -1,137 +1,200 @@
+<!DOCTYPE html>
+
 <head>
-    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
-    <meta content="utf-8" http-equiv="encoding">
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+  <meta content="utf-8" http-equiv="encoding" />
 
-    <meta property="og:title" content="raizo.dev" />
-    <meta property="og:url" content="https://raizo.dev" />
-    <meta property="og:description" content="0x5B618FE03DD54EB2" />
+  <meta property="og:title" content="raizo.dev" />
+  <meta property="og:url" content="https://raizo.dev" />
+  <meta property="og:description" content="0x5B618FE03DD54EB2" />
 
-    <link href="style/style.css" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
-    <link href='https://css.gg/css' rel='stylesheet'>
+  <link href="style/style.css" rel="stylesheet" type="text/css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap"
+    rel="stylesheet"
+  />
+  <link href="https://css.gg/css" rel="stylesheet" />
 
-    <style>
-        * {
-            font-family: 'JetBrains Mono', monospace;
-            color: white;
-        }
-    </style>
+  <style>
+    * {
+      font-family: "JetBrains Mono", monospace;
+      color: white;
+    }
+  </style>
 </head>
 
-<body class="bg-cbg min-h-screen">
-    <div class="justify-center grid gap-8 grid-cols-1 xl:grid-cols-2 w-1/2 mx-auto">
-        <div id="left" class="flex flex-col mt-4">
-            <h1 class="text-cpink text-3xl font-bold">raizo</h1>
-            <p class="text-purple-400">Software Developer</p>
+<body class="bg-cbg w-screen h-screen">
+  <div
+    class="justify-center grid gap-8 grid-cols-1 xl:grid-cols-2 w-1/2 mx-auto"
+  >
+    <div id="left" class="flex flex-col mt-4">
+      <h1 class="text-cpink text-3xl font-bold">raizo</h1>
+      <p class="text-purple-400">Software Developer</p>
 
-            <div>
-                <h1 class="text-purple-300 text-3xl font-bold my-2">> About me</h1>
-                <p class="my-2 text-lg">
-                    I am a 17-year old programmer. I'm <br>
-                    the lead developer of <a href="https://github.com/faintorg" class="decoration-dashed underline underline-offset-2 decoration-cpink text-cpink">Faint</a>, a DRM solution
-                    specialized in securing and protecting the payload <br>
-                    against reverse engineering
-                </p>
+      <div>
+        <h1 class="text-purple-300 text-3xl font-bold my-2">> About me</h1>
+        <p class="my-2 text-lg">
+          Hey there, I'm a 17-year old software developer, I'm <br />
+          the lead developer of
+          <a
+            href="https://github.com/faintorg"
+            class="decoration-dashed underline underline-offset-2 decoration-cpink text-cpink"
+            >Faint</a
+          >, a DRM solution specialized in securing and protecting the payload
+          <br />
+          against reverse engineering
+        </p>
 
-                <p class="mt-2 text-lg">
-                    I'm also a contributor at  <a href="https://github.com/azerothcore" class="decoration-dashed underline underline-offset-2 decoration-cpink text-cpink">Azerothcore</a>, a <br>
-                    complete Open Source and Modular solution for <br>
-                    World of Warcraft private servers.<br>
-                </p>
-                <div class="flex flex-row items-center">
-                    <ion-icon class="text-lg" name="location"></ion-icon>
-                    <p class="ml-2 text-lg">Essen, Germany</p>
-                </div>
-            </div>
-
-            <div>
-                <h1 class="text-purple-300 text-3xl font-bold my-2">> Skills</h1>
-                <div class="flex flex-row align-middle mb-2">
-                    <ion-icon name="code-slash" class="text-xl"></ion-icon>
-                    <p class="ml-2">Rust, C++, Python</p>
-                </div>
-                <div class="flex flex-row align-middle mb-2">
-                    <ion-icon name="globe-outline" class="text-xl"></ion-icon>
-                    <p class="ml-2">HTML/CSS, React, TypeScript</p>
-                </div>
-                <div class="flex flex-row align-middle mb-2">
-                    <ion-icon name="laptop-outline" class="text-xl"></ion-icon>
-                    <p class="ml-2">Visual Studio Code, Git/GitHub, CMake/Clang</p>
-                </div>
-            </div>
-
-            <div>
-                <h1 class="text-purple-300 text-3xl font-bold my-2">> Links</h1>
-
-                <div class="flex flex-row align-middle mb-2">
-                    <ion-icon name="logo-github" class="text-xl"></ion-icon>
-                    <a href="https://github.com/iraizo" class=" ml-2 decoration-dashed underline underline-offset-2 decoration-cpink text-cpink">GitHub</a>
-                </div>
-                <div class="flex flex-row align-middle mb-2">
-                    <ion-icon name="logo-discord" class="text-xl"></ion-icon>
-                    <a href="https://discord.com/users/452088717008437249" class=" ml-2 decoration-dashed underline underline-offset-2 decoration-cpink text-cpink">Discord</a>
-                </div>
-
-                <div class="flex flex-row align-middle mb-2">
-                    <ion-icon name="mail" class="text-xl"></ion-icon>
-                    <a href="mailto:raizo@riseup.net" class=" ml-2 decoration-dashed underline underline-offset-2 decoration-cpink text-cpink">raizo@riseup.net</a>
-                </div>
-            </div>
+        <p class="mt-2 text-lg">
+          I'm also a contributor at
+          <a
+            href="https://github.com/azerothcore"
+            class="decoration-dashed underline underline-offset-2 decoration-cpink text-cpink"
+            >Azerothcore</a
+          >, a <br />
+          complete Open Source and Modular solution for <br />
+          World of Warcraft private servers. I also work at many other projects
+          in my freetime.<br /><br />
+        </p>
+        <div class="flex flex-row items-center">
+          <ion-icon class="text-lg" name="location"></ion-icon>
+          <p class="ml-2 text-lg">Essen, Germany</p>
         </div>
+      </div>
 
-        <div id="right" class="flex flex-col mt-4">
-            <div class="text-center mb-2">
-                <h1 class="text-purple-300 text-4xl mb-1">Projects</h1>
-                <p>Some of my development <a href="https://github.com/iraizo?tab=repositories" class="decoration-dashed underline underline-offset-2 decoration-cpink text-cpink">(See more)</a></p>
-            </div>
-            <div class="bg-cbgdark rounded-md p-4 my-2">
-                <p class="font-bold text-purple-300 mb-4">cshp</p>
-                <p>CSharpHistoryParser.<br> Historicizing steam games pseudocode.</p>
-
-                <div class="flex flex-row items-center mt-2">
-                    <ion-icon name="hammer" class=" text-purple-400 text-lg"></ion-icon>
-                    <p class="ml-2 text-purple-300 text-lg">Rust</p>
-                </div>
-
-                <div class="flex flex-row items-center mt-2">
-                    <ion-icon name="logo-github" class="text-purple-400 text-lg"></ion-icon>
-                    <a href="https://github.com/iraizo/cshp" class="ml-2 decoration-dashed underline underline-offset-2 text-lg decoration-purple-300 text-purple-300">iraizo/cshp</a>
-                </div>
-            </div>
-
-            <div class="bg-cbgdark rounded-md p-4 my-2">
-                <p class="font-bold text-purple-300 mb-4">nvidia-overlay-hijack</p>
-                <p>Hijacking the nvidia overlay<br> with C++, enabling you to render.</p>
-
-                <div class="flex flex-row items-center mt-2">
-                    <ion-icon name="hammer" class=" text-purple-400 text-lg"></ion-icon>
-                    <p class="ml-2 text-purple-300 text-lg">C++</p>
-                </div>
-
-                <div class="flex flex-row items-center mt-2">
-                    <ion-icon name="logo-github" class="text-purple-400 text-lg"></ion-icon>
-                    <a href="https://github.com/iraizo/nvidia-overlay-hijack" class="ml-2 decoration-dashed underline underline-offset-2 text-lg decoration-purple-300 text-purple-300">iraizo/nvidia-overlay-hijack</a>
-                </div>
-            </div>
-
-            <div class="bg-cbgdark rounded-md p-4 my-2">
-                <p class="font-bold text-purple-300 mb-4">discord-ipc-poc</p>
-                <p>Reading out sensitive account data from discords<br> IPC socket.</p>
-
-                <div class="flex flex-row items-center mt-2">
-                    <ion-icon name="hammer" class=" text-purple-400 text-lg"></ion-icon>
-                    <p class="ml-2 text-purple-300 text-lg">Rust</p>
-                </div>
-
-                <div class="flex flex-row items-center mt-2">
-                    <ion-icon name="logo-github" class="text-purple-400 text-lg"></ion-icon>
-                    <a href="https://github.com/iraizo/discord-ipc-poc" class="ml-2 decoration-dashed underline underline-offset-2 text-lg decoration-purple-300 text-purple-300">iraizo/discord-ipc-poc</a>
-                </div>
-            </div>
+      <div>
+        <h1 class="text-purple-300 text-3xl font-bold my-2">> Skills</h1>
+        <div class="flex flex-row align-middle mb-2">
+          <ion-icon name="code-slash" class="text-xl"></ion-icon>
+          <p class="ml-2">Rust, C++, Python</p>
         </div>
+        <div class="flex flex-row align-middle mb-2">
+          <ion-icon name="globe-outline" class="text-xl"></ion-icon>
+          <p class="ml-2">HTML/CSS, React, TypeScript</p>
+        </div>
+        <div class="flex flex-row align-middle mb-2">
+          <ion-icon name="laptop-outline" class="text-xl"></ion-icon>
+          <p class="ml-2">Various version control/build systems, Linux</p>
+        </div>
+      </div>
+
+      <div>
+        <h1 class="text-purple-300 text-3xl font-bold my-2">> Links</h1>
+
+        <div class="flex flex-row align-middle mb-2">
+          <ion-icon name="logo-github" class="text-xl"></ion-icon>
+          <a
+            href="https://github.com/iraizo"
+            class="ml-2 decoration-dashed underline underline-offset-2 decoration-cpink text-cpink"
+            >GitHub</a
+          >
+        </div>
+        <div class="flex flex-row align-middle mb-2">
+          <ion-icon name="mail" class="text-xl"></ion-icon>
+          <a
+            href="mailto:admin@raizo.dev"
+            class="ml-2 decoration-dashed underline underline-offset-2 decoration-cpink text-cpink"
+            >admin@raizo.dev</a
+          >
+        </div>
+      </div>
     </div>
 
+    <div id="right" class="flex flex-col mt-4">
+      <div class="text-center mb-2">
+        <h1 class="text-purple-300 text-4xl mb-1">Projects</h1>
+        <p>
+          Some of my development
+          <a
+            href="https://github.com/iraizo?tab=repositories"
+            class="decoration-dashed underline underline-offset-2 decoration-cpink text-cpink"
+            >(See more)</a
+          >
+        </p>
+      </div>
+      <div class="bg-cbgdark rounded-md p-4 my-2">
+        <p class="font-bold text-purple-300 mb-4">cshp</p>
+        <p>
+          CSharpHistoryParser.<br />
+          Historicizing steam games pseudocode.
+        </p>
 
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <div class="flex flex-row items-center mt-2">
+          <ion-icon name="hammer" class="text-purple-400 text-lg"></ion-icon>
+          <p class="ml-2 text-purple-300 text-lg">Rust</p>
+        </div>
+
+        <div class="flex flex-row items-center mt-2">
+          <ion-icon
+            name="logo-github"
+            class="text-purple-400 text-lg"
+          ></ion-icon>
+          <a
+            href="https://github.com/iraizo/cshp"
+            class="ml-2 decoration-dashed underline underline-offset-2 text-lg decoration-purple-300 text-purple-300"
+            >iraizo/cshp</a
+          >
+        </div>
+      </div>
+
+      <div class="bg-cbgdark rounded-md p-4 my-2">
+        <p class="font-bold text-purple-300 mb-4">nvidia-overlay-hijack</p>
+        <p>
+          Hijacking the nvidia overlay<br />
+          with C++, enabling you to render.
+        </p>
+
+        <div class="flex flex-row items-center mt-2">
+          <ion-icon name="hammer" class="text-purple-400 text-lg"></ion-icon>
+          <p class="ml-2 text-purple-300 text-lg">C++</p>
+        </div>
+
+        <div class="flex flex-row items-center mt-2">
+          <ion-icon
+            name="logo-github"
+            class="text-purple-400 text-lg"
+          ></ion-icon>
+          <a
+            href="https://github.com/iraizo/nvidia-overlay-hijack"
+            class="ml-2 decoration-dashed underline underline-offset-2 text-lg decoration-purple-300 text-purple-300"
+            >iraizo/nvidia-overlay-hijack</a
+          >
+        </div>
+      </div>
+
+      <div class="bg-cbgdark rounded-md p-4 my-2">
+        <p class="font-bold text-purple-300 mb-4">discord-ipc-poc</p>
+        <p>
+          Reading out sensitive account data from discords<br />
+          IPC socket.
+        </p>
+
+        <div class="flex flex-row items-center mt-2">
+          <ion-icon name="hammer" class="text-purple-400 text-lg"></ion-icon>
+          <p class="ml-2 text-purple-300 text-lg">Rust</p>
+        </div>
+
+        <div class="flex flex-row items-center mt-2">
+          <ion-icon
+            name="logo-github"
+            class="text-purple-400 text-lg"
+          ></ion-icon>
+          <a
+            href="https://github.com/iraizo/discord-ipc-poc"
+            class="ml-2 decoration-dashed underline underline-offset-2 text-lg decoration-purple-300 text-purple-300"
+            >iraizo/discord-ipc-poc</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
 </body>
